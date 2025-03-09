@@ -130,7 +130,7 @@
 }
 
 .root__49fc1 {
-    background: rgba(46, 46, 46, 0.815);;
+    background: rgba(46, 46, 46, 0.815);
     border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
     border-radius: 16px;
 }
@@ -142,4 +142,12 @@
 
 .messageGroupWrapper__45690 {
     border-radius: 16px;
+}
+
+.container_a45028  {
+    border-radius: 13px;
+}
+
+.scroller_affa7e {
+    background: rgb(37, 37, 37);
 }
