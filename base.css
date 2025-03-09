@@ -1,0 +1,199 @@
+:root {
+    --blurple-replace: #7289DA;
+    --background-primary: rgb(29, 29, 29);
+    --background-secondary: rgb(29, 29, 29);
+    --background-floating: rgb(29, 29, 29);
+    --background-secondary-alt: var(--background-floating);
+    --background-tertiary: rgb(29, 29, 29);
+    --background-accent: rgb(29, 29, 29);
+    --userarea-background: var(--background-tertiary);
+    --header-primary: rgb(240, 246, 252);
+    --header-secondary: rgb(139, 148, 158);
+    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --channels-default: rgb(139, 148, 158);
+    --channeltextarea-background: rgb(29, 29, 29);
+    --voice-color: var(--brand-experiment);
+    --guild-header-text-shadow: 0 1px 1px rgba(197, 197, 197, 0.4);
+    --activity-card-background: #0f0f0f;
+    --interactive-normal: rgb(139, 148, 158);
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: rgb(76, 82, 88);
+    --background-modifier-hover: rgba(33, 38, 45, 0.26);
+    --background-modifier-active: rgba(33, 38, 45, 0.44);
+    --background-modifier-selected: rgba(33, 38, 45, 0.52);
+    --background-modifier-accent: rgb(33, 38, 45);
+    --text-link: rgb(88, 166, 255);
+    --text-normal: rgb(201, 209, 217);
+    --text-muted: rgb(139, 148, 158);
+    --deprecated-panel-background: #2a2f29;
+    --deprecated-card-bg: var(--background-secondary);
+    --deprecated-card-editable-bg: var(--background-secondary);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: var(--channeltextarea-background);
+    --deprecated-text-input-border: var(--border-color);
+    --deprecated-text-input-border-hover: rgb(29, 29, 29);
+    --deprecated-text-input-border-disabled: rgb(29, 29, 29);
+    --deprecated-text-input-prefix: #dcddde;
+    --background-accent-1: rgb(15, 15, 15, 0.1);
+    --background-accent-3: rgb(15, 15, 15, 0.3);
+    --background-floating-2: rgba(0, 0, 0, 0.2);
+    --bg-overlay-2: rgb(29, 29, 29);
+    --border-color: rgb(48, 54, 61);
+    --blurple-border: 1px solid rgb(31, 47, 71);
+    --divide-color: var(--brand-experiment);
+    --brand-experiment: rgb(88, 101, 242);
+    --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+} 
+
+
+
+
+.channelTextArea_f75fb0 {
+    transition: all 0.2s ease;
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 16px;
+}
+
+.channelTextArea_f75fb0:focus-within {
+    transition: all 0.2s ease;
+    border: 1px solid rgb(161, 161, 161); /* Jaśniejszy kolor, gdy textarea ma fokus */
+}
+
+.channelTextArea_f75fb0:hover {
+    transition: all 0.2s ease;
+    border: 1px solid rgb(161, 161, 161)
+}
+
+.textArea__74017 {
+    transition: all 0.2s ease;
+    /* Tu możesz dodać style dla textarea, jeśli potrzebujesz */
+}
+
+.scrollableContainer__74017 {
+    background: rgba(58, 58, 58, 0.651);
+    transition: all 0.3s ease-in-out;
+    border-radius: 16px;
+}
+
+.scrollableContainer__74017:hover {
+    background: rgb(56, 56, 56);
+}
+
+.placeholder__1b31f {
+    color: rgb(207, 207, 207);
+}
+
+.imageWrapper_af017a {
+    border-radius: 20px;
+}
+
+.button__201d5 {
+    border-radius: 8px;
+}
+
+.outer_c0bea0 {
+    border-radius: 18px;
+}
+
+.root__24502 {
+    border-radius: 18px;
+}
+
+.modalSize_a55fdc {
+    border-radius: 18px;
+    background: rgb(37, 37, 37);
+}
+
+.flex__7c0ba {
+    background: transparent;
+}
+
+
+.experimentWrapper__1405b {
+    background-color: transparent;
+}
+
+.eventPromptsContainer__1405b {
+    background-color: transparent;
+}
+
+.horizontal__7c0ba {
+    background-color: transparent;
+}
+
+.inputDefault__0f084 {
+    background: rgb(37, 37, 37);
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 13px;
+}
+
+.divider__46c3b {
+    border-top: thin solid rgb(53, 53, 53);
+}
+
+.select__3f413 {
+    background: rgb(37, 37, 37);
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 13px;
+}
+
+.searchable__3f413 {
+    background: rgb(37, 37, 37);
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 13px;
+}
+
+.item__344e6 {
+    transition: all 0.2s ease-in-out;
+}
+
+.item__344e6:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.container__3dde2 {
+    background: rgb(37, 37, 37);
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 13px;
+}
+
+.inner_a45028 {
+    background: rgb(37, 37, 37);
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 13px;
+}
+
+.inner_a99829 {
+    background: rgb(37, 37, 37);
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 13px;
+}
+
+.scroller__6b0e0 {
+    background: rgba(46, 46, 46, 0.651);;
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 16px;
+}
+
+.autocomplete__13533  {
+    border-radius: 16px;
+}
+
+.root__49fc1 {
+    background: rgba(46, 46, 46, 0.815);;
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 16px;
+}
+
+.messageGroupCozy__45690 {
+    border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
+    border-radius: 16px;
+}
+
+.messageGroupWrapper__45690 {
+    border-radius: 16px;
+}
