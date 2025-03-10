@@ -1,15 +1,17 @@
 .channelTextArea_f75fb0 {
     transition: all 0.2s ease;
     border: 1px solid rgb(97, 97, 97); /* Bazowy kolor obramowania */
-    border-radius: 16px;
+    border-radius: 15px;
 }
 
 .channelTextArea_f75fb0:focus-within {
+    border-radius: 17px;
     transition: all 0.2s ease;
     border: 1px solid rgb(161, 161, 161); /* Jaśniejszy kolor, gdy textarea ma fokus */
 }
 
 .channelTextArea_f75fb0:hover {
+    border-radius: 17px;
     transition: all 0.2s ease;
     border: 1px solid rgb(161, 161, 161)
 }
